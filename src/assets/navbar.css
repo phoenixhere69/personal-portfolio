@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+.App-header .navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8121D0;
+  height: 70px;
+  min-height: 65px;
+}
+
+.App-header .navbar .logo h5{
+  color: #fff;
+  font-size: 28px;
+  font-family: "Parkinsans", sans-serif;
+  font-weight: 600;
+}
+
+.App-header .navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.App-header .navbar li a{
+  font-family: "Parkinsans", sans-serif;
+  color: #ffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.App-header .navbar li a:hover{
+  color: #DCCFED;
+  transition: ease 0.3s;
+}
